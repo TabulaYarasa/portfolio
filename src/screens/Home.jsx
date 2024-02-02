@@ -6,8 +6,10 @@ import Myself from "../components/Myself";
 import ContactMe from "../components/ContactMe";
 const Home = () => {
   return (
-    <div className="  w-full overflow-hidden ">
-      <div className={`sm:px-16 px-6 flex justify-center items-center `}>
+    <div className="  w-full ">
+      <div
+        className={` sticky  top-0 z-50 sm:px-16 px-6 flex justify-center items-center  `}
+      >
         <div className={`${styles.boxWidth} `}>
           <Navbar />
         </div>
