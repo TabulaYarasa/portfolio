@@ -10,12 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.97.0",
+    "@react-three/fiber": "^8.15.16",
+    "@types/three": "^0.161.2",
+    "posthog-js": "^1.104.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-parallax-tilt": "^1.7.209",
     "react-router-dom": "^6.22.0",
     "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "three": "^0.161.0",
+    "tsparticles": "^3.2.1",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

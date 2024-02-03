@@ -67,12 +67,11 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          }    absolute top-15 right-0 my-2 w-full rounded-xl bg-[#1b1a2e] sidebar  `}
+          }   p-6 border-2 absolute top-15 right-0 my-2 w-full rounded-xl bg-white sidebar  `}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             <li
-              className={`font-poppins font-normal cursor-pointer text-[16px]  sm:mr-10 my-7 sm:my-0    text-white  
-              flex items-center ${layout.fromLeft}
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-blue-950
         `}
             >
               <Link to="/" className="flex items-center gap-2">
@@ -81,8 +80,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`font-poppins font-normal cursor-pointer text-[16px]  sm:mr-10 my-7 sm:my-0    text-white  
-              flex items-center ${layout.fromLeft}`}
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-blue-950  flex items-center gap-2  ${layout.fromLeft}`}
             >
               <Link to="/about" className="flex items-center gap-2">
                 <IoPersonSharp />
@@ -90,8 +88,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`font-poppins font-normal cursor-pointer text-[16px]  sm:mr-10 my-7 sm:my-0    text-white  
-              flex items-center ${layout.fromLeft}`}
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-blue-950 flex items-center gap-2  ${layout.fromLeft}`}
             >
               <GrProjects />
               Project

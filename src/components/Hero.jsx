@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex sm:flex-row flex-col ${styles.paddingY} pt-[144px] -mx-3`}
+      className={`flex sm:flex-row flex-col ${styles.paddingY} pt-[144px] -mx-3 `}
     >
       <div
         className={`flex-1 ${styles.flexStart}  flex-col xl:px-0 sm:px-3 sm:pl-[50px] px-6 pt-[80px]`}
@@ -35,7 +35,6 @@ const Hero = () => {
       >
         <img src={homeMain} alt="avatar" className="w-[100%]  relative z-[5]" />
       </div>
-      
     </section>
   );
 };

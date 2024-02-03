@@ -6,7 +6,7 @@ import { avatar } from "../assets/index";
 const Myself = () => {
   return (
     <section
-      id="home"
+      id="myself"
       className={`flex sm:flex-row flex-col-reverse ${styles.paddingY} pt-[144px] -mx-3`}
     >
       <div
