@@ -6,7 +6,9 @@ import { GrProjects } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import { close, menu } from "../assets";
+import { close, logo, menu } from "../assets";
+import { PiProjectorScreenChartFill } from "react-icons/pi";
+
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const [toggle, setToggle] = useState(false);
@@ -25,7 +27,7 @@ const Navbar = () => {
       className={`w-full flex py-[8px] justify-between items-center navbar `}
     >
       <div className=" w-full flex justify-between mr-5 ">
-        <p className={`text-[30px] max-w-[470px]  text-secondary`}>F C</p>
+        <img src={logo} alt="logo" className="w-[60px]" />
 
         <ul
           className={`list-none sm:flex hidden justify-end items-center flex-1 `}
@@ -37,7 +39,7 @@ const Navbar = () => {
           >
             <Link to="/" className="flex items-center gap-2">
               <FaHome />
-              Home
+              Anasayfa
             </Link>
           </li>
           <li
@@ -45,14 +47,17 @@ const Navbar = () => {
           >
             <Link to="/about" className="flex items-center gap-2">
               <IoPersonSharp />
-              about
+              Hakkımda
             </Link>
           </li>
           <li
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white flex items-center gap-2  ${layout.fromLeft}`}
           >
-            <GrProjects />
-            Project
+              <Link to="/projects" className="flex items-center gap-2">
+
+            <PiProjectorScreenChartFill />
+            Projelerim
+              </Link>
           </li>
         </ul>
       </div>
@@ -77,7 +82,7 @@ const Navbar = () => {
             >
               <Link to="/" className="flex items-center gap-2">
                 <FaHome />
-                Home
+                Anasayfa
               </Link>
             </li>
             <li
@@ -86,15 +91,17 @@ const Navbar = () => {
             >
               <Link to="/about" className="flex items-center gap-2">
                 <IoPersonSharp />
-                about
+                Hakkımda
               </Link>
             </li>
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px]  sm:mr-10 my-7 sm:my-0    text-white  
               flex items-center ${layout.fromLeft}`}
             >
-              <GrProjects />
-              Project
+              <Link to="/projects" className="flex items-center gap-2">
+                <PiProjectorScreenChartFill />
+                Projelerim
+              </Link>
             </li>
           </ul>
         </div>

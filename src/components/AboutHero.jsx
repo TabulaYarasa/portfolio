@@ -33,15 +33,15 @@ const AboutHero = () => {
           </h3>
           <p className={`text-white ${styles.paragraph} mt-5 `}>
             Yazılım geliştirme, benim için hem bir hobi hem de bir meslek.
-            Yazılım geliştirme sayesinde,{" "}
+            Yazılım geliştirme sayesinde,
             <span className="text-secondary"> hayal gücümü </span> ve{" "}
             <span className="text-secondary"> yaratıcılığımı </span>
-            kullanarak, insanların hayatını kolaylaştıran, eğlendiren veya
-            öğreten uygulamalar yaratabiliyorum. Ayrıca,{" "}
+            kullanarak, insanların hayatını kolaylaştıran uygulamalar
+            yaratabiliyorum. Ayrıca,
             <span className="text-secondary"> yazılım geliştirme </span>,
             sürekli öğrenmeyi ve kendimi geliştirmeyi gerektiren bir alan. Bu da
-            benim için çok{" "}
-            <span className="text-secondary"> heyecan verici </span> ve{" "}
+            benim için çok
+            <span className="text-secondary"> heyecan verici </span> ve
             <span className="text-secondary"> motive edici </span> . Yazılım
             geliştirme, benim için bir tutku ve bu tutkuyu sizinle paylaşmak
             istiyorum.
@@ -57,7 +57,6 @@ const AboutHero = () => {
           className="max-w-[100%] min-w-[500px] relative z-[5] mdm:pr-5 "
         />
       </div>
-      
     </section>
   );
 };

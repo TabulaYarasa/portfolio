@@ -1,16 +1,11 @@
-import React, { useState } from "react";
-
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Myself from "../components/Myself";
-import Footer from "../components/Footer";
+import React, { useState } from 'react'
+import Navbar from '../components/Navbar';
+import StarsCanvas from '../components/StarBackground';
+import Footer from '../components/Footer';
 import styles from "../style";
-import StarsCanvas from "../components/StarBackground";
-import Particles2 from "../components/Particles2";
-import AboutHero from "../components/AboutHero";
-import Techs from "../components/Techs";
+import ProjectsContainer from '../components/ProjectsContainer';
 
-const About = () => {
+const Projects = () => {
   const [colorChange, setColorchange] = useState(false);
 
   const changeNavbarColor = () => {
@@ -40,21 +35,20 @@ const About = () => {
 
       <div className={` ${styles.flexStart}  `}>
           <div className={`${styles.boxWidth} z-[5]`}>
-        <AboutHero/>
-        <Techs />
+     <ProjectsContainer/>
           </div>
         </div>
+    
         <div className={` ${styles.flexStart} `}>
           <div className={`${styles.boxWidth} z-[5]`}>
           <Footer/>
           </div>
         </div>
-     
     </div>
   </>
      
     
   );
 };
+export default Projects
 
-export default About;

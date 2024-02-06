@@ -39,7 +39,7 @@ const Myself = () => {
       >
         <Tilt>
 
-        <img src={avatar} alt="avatar" className="w-[300px]  relative z-[5] mdm:pr-5" />
+        <img src={avatar} alt="avatar" className="w-[300px] h-[300px] relative z-[5] mdm:pr-5" />
         </Tilt>
       </div>
     </section>

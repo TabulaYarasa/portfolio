@@ -1,18 +1,14 @@
 import React from "react";
 import styles, { layout } from "../style";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn, FaWhatsapp  } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdMail } from "react-icons/md";
 const ContactMe = () => {
   return (
     <section
       id="home"
-      className={`flex sm:flex-row flex-col-reverse ${styles.paddingY} pt-[144px] -mx-3`}
+      className={`flex sm:flex-row flex-col-reverse ${styles.paddingY} pt-[144px] -mx-3 mb-10`}
     >
       <div
         className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-3 sm:pl-[50px] px-6 `}
@@ -24,8 +20,8 @@ const ContactMe = () => {
           </h2>
         </div>
 
-        <ul className={`list-none flex  items-center  mt-5`}>
-          <li
+        <ul className={`list-none flex  items-center  mt-5 gap-10`}>
+          {/* <li
             className={`font-poppins font-normal cursor-pointer text-[75px]  mr-2 text-white flex items-center  scale-75 hover:scale-100 ease-in hover:text-secondary duration-500
         `}
           >
@@ -33,10 +29,10 @@ const ContactMe = () => {
             <Link target="_blank" to="https://wa.me/905453952702">
               <FaWhatsapp  />
             </Link>
-          </li>
+          </li> */}
 
           <li
-            className={`font-poppins font-normal cursor-pointer text-[75px]  mr-2 text-white flex items-center  scale-75 hover:scale-100 ease-in hover:text-secondary duration-500
+            className={`font-poppins font-normal cursor-pointer text-[75px] w-[40px] h-[40px]  mr-2 text-white flex items-center  scale-75 hover:scale-100 ease-in hover:text-secondary duration-500
              `}
           >
             <Link target="_blank" to="mailto:m.furkancoker@gmail.com">
@@ -45,7 +41,7 @@ const ContactMe = () => {
           </li>
 
           <li
-            className={`font-poppins font-normal cursor-pointer text-[75px]  mr-2 text-white flex items-center  scale-75 hover:scale-100 hover:text-secondary ease-in duration-500
+            className={`font-poppins font-normal cursor-pointer text-[75px] w-[40px] h-[40px]  mr-2 text-white flex items-center  scale-75 hover:scale-100 hover:text-secondary ease-in duration-500
               `}
           >
             <Link target="_blank" to="https://instagram.com/furkan_coker">
@@ -54,7 +50,7 @@ const ContactMe = () => {
           </li>
 
           <li
-            className={`font-poppins font-normal cursor-pointer text-[75px]   text-white flex items-center  scale-75 hover:scale-100 ease-in hover:text-secondary duration-500
+            className={`font-poppins font-normal cursor-pointer text-[75px] w-[40px] h-[40px]   text-white flex items-center  scale-75 hover:scale-100 ease-in hover:text-secondary duration-500
              `}
           >
             <Link
