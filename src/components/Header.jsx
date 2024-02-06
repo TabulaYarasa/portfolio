@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import styles, { layout } from "../style";
+import { layout } from "../style";
 import { FaHome } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { GrProjects } from "react-icons/gr";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import { close, menu } from "../assets";
 const Header = () => {
   const [colorChange, setColorchange] = useState(false);

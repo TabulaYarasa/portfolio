@@ -4,23 +4,17 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiKotlin ,
   SiExpress ,
   SiOracle,
   SiGradle  
 } from "react-icons/si";
-import { TbBrandGolang,TbBrandKotlin } from "react-icons/tb";
-import styles, { layout } from "../style";
+
+import styles from "../style";
 
 const Techs = () => {
   return (

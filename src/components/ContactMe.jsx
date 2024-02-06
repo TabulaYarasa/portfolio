@@ -1,5 +1,5 @@
 import React from "react";
-import styles, { layout } from "../style";
+import styles from "../style";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";

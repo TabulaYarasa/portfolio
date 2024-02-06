@@ -1,5 +1,5 @@
 import React from "react";
-import styles, { layout } from "../style";
+import styles from "../style";
 import { homeMain } from "../assets/index";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -18,7 +18,7 @@ const Hero = () => {
             Ben <span className="text-secondary">Furkan Çöker</span>
           </h2>
         </div>
-        <span className="text-secondary font-poppins px-[12px] pt-[50px] font-semibold  ss:text-[40px] text-[45px] ss:leading-[50px] leading-[50px]">
+        <span className="text-secondary h-[200px] font-poppins px-[12px] pt-[50px] font-semibold  ss:text-[40px] text-[45px] ss:leading-[50px] leading-[50px]">
           <Typewriter
             words={["Yazılım Geliştirme", "Makine Mühendisi", "Tasarım"]}
             loop={true}
@@ -31,9 +31,9 @@ const Hero = () => {
         </span>
       </div>
       <div
-        className={`flex-1 ${styles.flexCenter} sm:my-0 sm:px-3 sm:pb-5 my-10 relative`}
+        className={`flex-1 ${styles.flexCenter} sm:my-0 sm:px-3 sm:pb-5 my-10`}
       >
-        <img src={homeMain} alt="Working" className="w-[600px]  relative z-[5]" />
+        <img src={homeMain} alt="Working" className="w-[600px]   relative z-[5]" />
       </div>
     </section>
   );

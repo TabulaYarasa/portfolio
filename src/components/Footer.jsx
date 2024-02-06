@@ -7,7 +7,7 @@ import { MdMail } from "react-icons/md";
 const Footer = () => {
   return (
     <section className=" bottom-0 left-0 right-0 bg-[#0a0416] py-3 px-10  z-[1000] overflow-hidden w-full">
-      <div className="flex flex-row justify-between items-center ">
+      <div className="flex flex-row justify-between items-center msm:flex-col-reverse msm:text-center">
         <p className="text-white">© 2024 Tüm Hakları Saklıdır. Furkan ÇÖKER </p>
 
         <div>

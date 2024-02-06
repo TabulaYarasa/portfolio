@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <>
       
-    <StarsCanvas />
+  
     <div className="  w-full overflow-hidden">
 
       <div
@@ -40,7 +40,7 @@ const Projects = () => {
         </div>
     
         <div className={` ${styles.flexStart} `}>
-          <div className={`${styles.boxWidth} z-[5]`}>
+          <div className={`${styles.boxWidth} xl:max-w-full z-[5]`}>
           <Footer/>
           </div>
         </div>

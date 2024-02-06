@@ -1,5 +1,5 @@
 import React from 'react'
-import styles, { layout } from "../style";
+import styles from "../style";
 import ProjectCard from './ProjectCard';
 import { projectInfo } from './constant';
 
@@ -23,7 +23,7 @@ const ProjectsContainer = () => {
 
     {projectInfo.map((card, index) => (
       
-        <ProjectCard key={projectInfo.index}  {...card}/>
+        <ProjectCard key={index}  {...card}/>
     ))}
 
 

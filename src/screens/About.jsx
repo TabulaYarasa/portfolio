@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Myself from "../components/Myself";
 import Footer from "../components/Footer";
 import styles from "../style";
 import StarsCanvas from "../components/StarBackground";
-import Particles2 from "../components/Particles2";
 import AboutHero from "../components/AboutHero";
 import Techs from "../components/Techs";
 
@@ -25,7 +22,7 @@ const About = () => {
   return (
     <>
       
-    <StarsCanvas />
+ 
     <div className="  w-full overflow-hidden">
 
       <div
@@ -45,7 +42,7 @@ const About = () => {
           </div>
         </div>
         <div className={` ${styles.flexStart} `}>
-          <div className={`${styles.boxWidth} z-[5]`}>
+          <div className={`${styles.boxWidth} xl:max-w-full z-[5]`}>
           <Footer/>
           </div>
         </div>

@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
-import styles, { layout } from "../style";
+import React, {  useState } from "react";
+import { layout } from "../style";
 import { FaHome } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
-import { GrProjects } from "react-icons/gr";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import { close, logo, menu } from "../assets";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 
@@ -27,7 +25,10 @@ const Navbar = () => {
       className={`w-full flex py-[8px] justify-between items-center navbar `}
     >
       <div className=" w-full flex justify-between mr-5 ">
+        <Link to="/" >
+
         <img src={logo} alt="logo" className="w-[60px]" />
+        </Link>
 
         <ul
           className={`list-none sm:flex hidden justify-end items-center flex-1 `}

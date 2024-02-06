@@ -1,12 +1,11 @@
 import React from "react";
 import { about } from "../assets";
-import styles, { layout } from "../style";
-import Techs from "./Techs";
+import styles from "../style";
 const AboutHero = () => {
   return (
     <section
       id="aboutHero"
-      className={`flex sm:flex-row flex-col-reverse ${styles.paddingY} sm:pt-[144px] mx-3`}
+      className={`flex w-full sm:flex-row flex-col-reverse ${styles.paddingY} pt-[144px] sm:pt-[144px] `}
     >
       <div
         className={`sm:w-[60%] ${styles.flexStart} flex-col xl:px-0 sm:px-3 sm:pl-[50px] px-6 `}
@@ -49,12 +48,12 @@ const AboutHero = () => {
         </div>
       </div>
       <div
-        className={`sm:w-[40%] ${styles.flexCenter} sm:my-0 sm:px-3 pb-5 my-10 relative flex items-center justify-center sm:p-[50px]  `}
+        className={`sm:w-[40%]  ${styles.flexCenter} px-3 pb-5 my-10 relative flex items-center justify-center   `}
       >
         <img
           src={about}
           alt="avatar"
-          className="max-w-[100%] min-w-[500px] relative z-[5] mdm:pr-5 "
+          className="w-[300px] sm:w-[500px] relative z-[5] "
         />
       </div>
     </section>
